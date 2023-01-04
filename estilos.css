@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #110041;
+}
+
+.Saldo{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+ 
+}
+.monto{
+    margin-top: 20px;
+    background: linear-gradient(315deg, rgba(64,101,108,0.38728995015975143) 44%, rgba(5,176,79,0.6533963927367823) 75%); ;
+    height: 35vh;
+    width: 35vw;
+    border-radius: 50px;
+
+
+}
