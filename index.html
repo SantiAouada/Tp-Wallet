@@ -6,29 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallet</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <script src="ap.js"></script>
     <header>
-
+        <div class="titulo">
+            <h1>Tu billetera</h1>        
+            <div>
+                <a href="">Tu Saldo</a>
+                <a href="">Añadir ingreso</a>
+                <a href="">Añadir gasto</a>
+               <a href="#ligasto">Tus gastos</a>
+            </div>
+        </div>
     </header>
     <main>
         <section class="Saldo">
-            <div class="monto">
+            <div class="monto" id="monto1">
+                <h1>Saldo disponible</h1>
+                <h2>10000$</h2>
             </div>
-        </section>
-        <section>
-            <div class="ingresos">
-                <button class="addincome">Añadir ingresos</button>
-            </div>
-        </section>
-        <section>
-            <div class="gastos">
+            <div class="btns">
                 <button class="addgasto">Añadir gastos</button>
+                <button class="addincome" id="adingreso">Añadir ingresos</button>
+                <input type="number" id="ingreso" name="plata">
             </div>
-            <li>
-                
-            </li>
+        </section>
+        <section class="ingresos">
+            <div> 
+
+            </div>
+        </section>
+        <section id="ligasto">
+            <div class="gastos">
+                <ul>
+                    <li>Gasto1 500$ <i class="bi bi-trash3-fill tacho"></i></li>
+                    <li>Gasto2 1000$ <i class="bi bi-trash3-fill tacho"></i></li>
+                    <li>gasto3 920$ <i class="bi bi-trash3-fill tacho"></i></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <ol>
+
+            </ol>
         </section>
     </main>
 </body>

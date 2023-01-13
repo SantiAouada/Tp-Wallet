@@ -1,22 +1,61 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #110041;
+    scroll-behavior: smooth;
 }
-
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+a{
+    text-decoration: none;
+}
 .Saldo{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 70vh;
     width: 100%;
- 
 }
 .monto{
     margin-top: 20px;
-    background: linear-gradient(315deg, rgba(64,101,108,0.38728995015975143) 44%, rgba(5,176,79,0.6533963927367823) 75%); ;
+    background: linear-gradient(rgba(2, 17, 114, 0.55) 44%, rgba(128, 5, 165, 0.386) 75%); ;
     height: 35vh;
     width: 35vw;
     border-radius: 50px;
-
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ingresos{
+    display: flex;
+    align-items: center;
+}
+.btns{
+    margin-top: 20px;
+}
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 10vh;
+    width: 15vh;
+    background:linear-gradient(rgba(10, 35, 125 , 0.60) 33%, rgba(130, 10, 175, 0.45) 66%);
+}
+.tacho{
+    font-size: 1,5rem;
+    color: red;
+}
+.gastos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-size: 2rem;
+    margin-bottom: 3px;
 }
