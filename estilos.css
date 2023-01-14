@@ -13,12 +13,15 @@
 a{
     text-decoration: none;
 }
-.Saldo{
+.Saldos{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 70vh;
     width: 100%;
+}
+.saldo{
+    margin-top: 2rem;
 }
 .monto{
     margin-top: 20px;
@@ -27,7 +30,6 @@ a{
     width: 35vw;
     border-radius: 50px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }

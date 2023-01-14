@@ -14,3 +14,10 @@ const anadiringreso=(event) =>{
 }
 
 ingreso1.addEventListener('click',anadiringreso)
+
+const erase=(event)=>{
+    
+}
+let borrar =document.getElementById('eliminar')
+
+borrar.addEventListener('click',)

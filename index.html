@@ -7,6 +7,7 @@
     <title>Wallet</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="wallet2.ico" type="image/x-icon">
 </head>
 <body>
     <script src="ap.js"></script>
@@ -22,10 +23,12 @@
         </div>
     </header>
     <main>
-        <section class="Saldo">
+        <section class="Saldos">
             <div class="monto" id="monto1">
                 <h1>Saldo disponible</h1>
-                <h2>10000$</h2>
+                <div class="saldo">
+                    <h2>10000$</h2>
+                </div>
             </div>
             <div class="btns">
                 <button class="addgasto">Añadir gastos</button>
@@ -41,16 +44,13 @@
         <section id="ligasto">
             <div class="gastos">
                 <ul>
-                    <li>Gasto1 500$ <i class="bi bi-trash3-fill tacho"></i></li>
-                    <li>Gasto2 1000$ <i class="bi bi-trash3-fill tacho"></i></li>
-                    <li>gasto3 920$ <i class="bi bi-trash3-fill tacho"></i></li>
+                    <li>Gasto1 500$ <i class="bi bi-trash3-fill tacho" id="eliminar"></i></li>
+                    <li>Gasto2 1000$ <i class="bi bi-trash3-fill tacho" id="eliminar"></i></li>
+                    <li>gasto3 920$ <i class="bi bi-trash3-fill tacho" id="eliminar"></i></li>
                     <li></li>
                     <li></li>
                 </ul>
             </div>
-            <ol>
-
-            </ol>
         </section>
     </main>
 </body>
